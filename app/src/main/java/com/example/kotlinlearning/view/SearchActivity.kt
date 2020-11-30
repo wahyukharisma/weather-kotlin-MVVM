@@ -23,6 +23,7 @@ class SearchActivity : AppCompatActivity() {
 
         viewModel = ViewModelProvider(this).get(SearchActivityViewModel::class.java)
 
+
         iv_search.setOnClickListener {
             if (et_location.text!!.isNotEmpty())
                 viewModel.searchLocation(et_location.text.toString())

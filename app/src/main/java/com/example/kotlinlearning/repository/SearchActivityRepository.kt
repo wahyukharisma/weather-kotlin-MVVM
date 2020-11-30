@@ -47,7 +47,6 @@ class SearchActivityRepository(val application: Application) {
                 showProgress.value = false
                 Toast.makeText(application,"Error while accesing the API", Toast.LENGTH_SHORT)
             }
-
         })
     }
 }
