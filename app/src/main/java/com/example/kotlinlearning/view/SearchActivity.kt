@@ -29,7 +29,7 @@ class SearchActivity : AppCompatActivity() {
         }
 
         // Memanggil observe dengan 2 parameter
-        // Parameter pertama dikenal dengan lifecycle owner yang memberikan sinyak apakah activity/fragmen aktif atau tidak
+        // Parameter pertama dikenal dengan lifecycle owner yang memberikan sinyal apakah activity/fragmen aktif atau tidak
         // Mengacu pada lifecycle owner maka akan mentrigger observer dan menjalankan fungsi di dalamnya dalam kasus ini mnegecek apakah
         // show progress bernilai true/false
         viewModel.showProgress.observe(this, Observer {
