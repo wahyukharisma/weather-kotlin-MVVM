@@ -13,8 +13,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".view.SplashActivity"></activity>
         <activity android:name=".view.DetailActivity" />
-        <activity android:name=".view.SearchActivity" />
-        <activity android:name=".view.NewsActivity">
+        <activity android:name=".view.NewsActivity" />
+        <activity android:name=".view.SearchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
